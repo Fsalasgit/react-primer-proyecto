@@ -20,7 +20,7 @@
 ![Captura de Pantalla 1](./src/assets/screenshots/Imagen1.png)
 _Imagen: Búsqueda de "dustin"._
 
-![Captura de Pantalla 2](./src/assets/screenshots/Imagen1.png)
+![Captura de Pantalla 2](./src/assets/screenshots/Imagen2.png)
 _Imagen: busqueda con espacios a los costados del string._
 
 ## Cómo Usar
