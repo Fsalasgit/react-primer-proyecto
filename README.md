@@ -18,10 +18,10 @@
 ## Capturas de Pantalla
 
 ![Captura de Pantalla 1](./src/assets/screenshots/Imagen1.png)
-_Imagen: Búsqueda de "gatos"._
+_Imagen: Búsqueda de "dustin"._
 
 ![Captura de Pantalla 2](./src/assets/screenshots/Imagen1.png)
-_Imagen: Exploración de imágenes divertidas._
+_Imagen: busqueda con espacios a los costados del string._
 
 ## Cómo Usar
 
