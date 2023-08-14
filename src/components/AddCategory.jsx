@@ -12,7 +12,7 @@ function AddCategory({setCategories}) {
     if((inputValue.trim() !== inputValue) || (inputValue === "")){
 
       (inputValue.trim() !== inputValue ? 
-      alertInputValue = `El string ${inputValue} tiene espacio al inicio o fin de caracter favor de borrarlo` :
+      alertInputValue = `usted esta buscando:"${inputValue}" tiene espacio al inicio o fin de caracter favor de borrarlo` :
       alertInputValue = `No se puede buscar espacio en blanco`)
       
       return alert(alertInputValue)

@@ -9,8 +9,8 @@ const GifGrid = ({category = "batman"}) => {
     const {data, loading} = useFetchGifs(category)
     
   return (
-    <div>
-        <h3>{category}</h3>
+    <div className='gifGridContainer'>
+        <h3 className='gifGridContainer__title'>{category.toUpperCase()}</h3>
         <div className='container'>
             {/* {loading && <LoadingGif />} // esta sintazis es un metodo abreviado del ternario*/} 
             {loading ? <LoadingGif /> : ""}
