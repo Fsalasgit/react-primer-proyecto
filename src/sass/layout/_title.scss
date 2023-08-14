@@ -1,8 +1,15 @@
 .principal-title{
     display: flex;
+    text-transform: uppercase;
+    background: linear-gradient(to right, $gradient-start, $gradient-middle-1, $gradient-middle-2, $gradient-end);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
 }
 
 .principal__logo svg{
     height: 2rem;
     margin-right: 0.5rem;
+    
 }
