@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    align-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 300px;
+    position: relative;
+    box-shadow: 2px 2px 2px white,-2px -2px 2px white;
+}
+
+.card img{
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    image-rendering: high-quality;
+    cursor: pointer;
+    transition:ease-in-out 300ms;
+}
+
+.card img:hover{
+    transform: scale(1.2);
+    image-rendering: none;
+
+}
+
+
+.card p{
+    position: absolute;
+    bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.774);
+    margin: auto;
+    margin-left: auto;
+}
