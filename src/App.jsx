@@ -12,8 +12,10 @@ function App() {
   return (
     <>
      <h1>Gifs App</h1>
-     <AddCategory setCategories={setCategories} />
-     <button onClick={()=>{setCategories([""])} }>Limpiar</button>
+      <div className='form__buscador'> 
+        <AddCategory setCategories={setCategories} />
+        <button onClick={()=>{setCategories([""])} } className='button__Cleaner'>Limpiar</button>
+      </div>
      <ol>
       {categories.map((category) => (
         
