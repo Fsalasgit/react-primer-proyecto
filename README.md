@@ -23,6 +23,7 @@ _Imagen: Búsqueda de "dustin"._
 ![Captura de Pantalla 2](./src/assets/screenshots/Imagen2.png)
 _Imagen: busqueda con espacios a los costados del string._
 
+
 ## Cómo Usar
 
 1. Clona este repositorio a tu máquina local.
